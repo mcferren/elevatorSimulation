@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<building>
+        
+        
+        <numberOfPersonRequestingElevatorByTime>5</numberOfPersonRequestingElevatorByTime> <!-- per minute -->
+        <maxPersonsPerElevator>8</maxPersonsPerElevator>
+        <simulationDuration>10</simulationDuration> <!-- minutes -->
+        <timeToTravelFloor>1000</timeToTravelFloor> <!-- milliseconds -->
+        <elevatorOpenTime>3000</elevatorOpenTime> <!-- milliseconds -->
+        <numOfFloors>16</numOfFloors>
+        <numOfElevators>4</numOfElevators>
+        <timeScaleFactor>200</timeScaleFactor>
+        <elevatorDefaultFloors>
+            <elevator serialNumber="1" >
+                <defaultFloor>7</defaultFloor>
+            </elevator>   
+            <elevator serialNumber="2" >
+                <defaultFloor>1</defaultFloor>
+            </elevator>   
+            <elevator serialNumber="3" >
+                <defaultFloor>1</defaultFloor>
+            </elevator>   
+            <elevator serialNumber="4" >
+                <defaultFloor>1</defaultFloor>
+            </elevator>   
+        </elevatorDefaultFloors>
+        <floorStatisticalSpec>
+            <floor floorNumber="1" >
+                <startingPercentage>15</startingPercentage>
+                <endingPercentage>15</endingPercentage>
+            </floor>
+            <floor floorNumber="2" >
+                <startingPercentage>5</startingPercentage>
+                <endingPercentage>5</endingPercentage>
+            </floor>
+            <floor floorNumber="3" >
+                <startingPercentage>5</startingPercentage>
+                <endingPercentage>5</endingPercentage>
+            </floor>
+            <floor floorNumber="4" >
+                <startingPercentage>5</startingPercentage>
+                <endingPercentage>5</endingPercentage>
+            </floor>
+            <floor floorNumber="5" >
+                <startingPercentage>5</startingPercentage>
+                <endingPercentage>5</endingPercentage>
+            </floor>
+            <floor floorNumber="6" >
+                <startingPercentage>5</startingPercentage>
+                <endingPercentage>5</endingPercentage>
+            </floor>
+            <floor floorNumber="7" >
+                <startingPercentage>10</startingPercentage>
+                <endingPercentage>10</endingPercentage>
+            </floor>
+            <floor floorNumber="8" >
+                <startingPercentage>5</startingPercentage>
+                <endingPercentage>5</endingPercentage>
+            </floor>
+            <floor floorNumber="9" >
+                <startingPercentage>5</startingPercentage>
+                <endingPercentage>5</endingPercentage>
+            </floor>
+            <floor floorNumber="10" >
+                <startingPercentage>5</startingPercentage>
+                <endingPercentage>5</endingPercentage>
+            </floor>
+            <floor floorNumber="11" >
+                <startingPercentage>5</startingPercentage>
+                <endingPercentage>5</endingPercentage>
+            </floor>
+            <floor floorNumber="12" >
+                <startingPercentage>5</startingPercentage>
+                <endingPercentage>5</endingPercentage>
+            </floor>
+            <floor floorNumber="13" >
+                <startingPercentage>5</startingPercentage>
+                <endingPercentage>5</endingPercentage>
+            </floor>
+            <floor floorNumber="14" >
+                <startingPercentage>5</startingPercentage>
+                <endingPercentage>5</endingPercentage>
+            </floor>
+            <floor floorNumber="15" >
+                <startingPercentage>5</startingPercentage>
+                <endingPercentage>5</endingPercentage>
+            </floor>
+            <floor floorNumber="16" >
+                <startingPercentage>10</startingPercentage>
+                <endingPercentage>10</endingPercentage>
+            </floor>
+        </floorStatisticalSpec>
+</building>
